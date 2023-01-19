@@ -1,0 +1,175 @@
+body .main--div main .inf-sec .inf-div p, body .main--div main .what-i-do-sec .learning div p {
+  line-break: normal;
+  font-size: 23px;
+  font-family: sans-serif;
+  color: black;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin: 5px;
+  text-transform: capitalize; }
+
+body .main--div main .fun-fact div p, body .main--div main .fun-fact div i {
+  font-size: 35px;
+  color: black;
+  text-align: center; }
+
+body .main--div main .inf-sec .inf-div h1, body .main--div main .what-i-do-sec h2, body .main--div main .what-i-do-sec .learning div h3, body .main--div main .fun-fact .fun-dive h3, body .main--div main .fun-fact div h3 {
+  text-transform: capitalize;
+  font-size: 32px;
+  font-weight: bold;
+  color: #398316;
+  line-height: 30px;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin: 5px;
+  text-transform: capitalize; }
+
+body .main--div header .navigation ul .navigation--link1 i, body .main--div main .what-i-do-sec h2 i, body .main--div main .fun-fact .fun-dive h3 i {
+  font-size: 30px;
+  color: rgba(57, 131, 22, 0.781); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../CV/img/background.jpeg);
+  background-size: cover;
+  background-attachment: fixed; }
+  body .main--div {
+    padding: 10px;
+    margin: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(57, 131, 22, 0.37);
+    background-color: whitesmoke; }
+    body .main--div header {
+      padding: 50px 30px 100px 30px; }
+      body .main--div header .navigation ul {
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        list-style: none; }
+        body .main--div header .navigation ul .navigation--link1 {
+          grid-column: 1/3;
+          text-transform: capitalize;
+          font-size: 20px;
+          font-weight: bolder;
+          font-family: sans-serif; }
+        body .main--div header .navigation ul .navigation--link {
+          padding-top: 7px; }
+          body .main--div header .navigation ul .navigation--link a {
+            font-family: sans-serif;
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+            font-size: 25px; }
+    body .main--div main .inf-sec {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr); }
+      body .main--div main .inf-sec .img-div {
+        border-radius: 1px solid red;
+        grid-column: 1/2;
+        margin: 40px 55%; }
+        body .main--div main .inf-sec .img-div img {
+          border: 5px solid rgba(57, 131, 22, 0.664);
+          height: 275px;
+          border-radius: 138px;
+          width: 275px;
+          padding: 5px;
+          box-shadow: 0px 0px 10px 5px rgba(131, 173, 111, 0.507); }
+      body .main--div main .inf-sec .inf-div {
+        padding: 40px;
+        grid-column: 2/5;
+        margin: 0px 115px 0px 20%; }
+        body .main--div main .inf-sec .inf-div button {
+          color: black;
+          font-size: 25px;
+          font-weight: bold;
+          font-family: sans-serif;
+          letter-spacing: 1px;
+          padding: 20px;
+          margin: 15px 30px 15px 0px;
+          border: 2px solid rgba(128, 128, 128, 0.692);
+          border-radius: 40px;
+          text-transform: capitalize;
+          cursor: pointer;
+          box-shadow: 0px 3px 9px 2px #80808091;
+          transition: background-color 0.65s; }
+        body .main--div main .inf-sec .inf-div button:hover {
+          border: none;
+          background-color: rgba(128, 128, 128, 0.692); }
+        body .main--div main .inf-sec .inf-div .download-btn {
+          border: 3px solid rgba(57, 131, 22, 0.781); }
+        body .main--div main .inf-sec .inf-div .download-btn:hover {
+          background-color: rgba(57, 131, 22, 0.781);
+          color: white; }
+    body .main--div main .what-i-do-sec h2 {
+      color: black;
+      margin: 5%; }
+    body .main--div main .what-i-do-sec .learning {
+      display: flex; }
+      body .main--div main .what-i-do-sec .learning div {
+        margin: 20px 0px; }
+        body .main--div main .what-i-do-sec .learning div p {
+          padding: 15px;
+          margin: 0% 5%;
+          width: 85%;
+          background-color: rgba(23, 138, 23, 0.178); }
+        body .main--div main .what-i-do-sec .learning div h3 {
+          display: inline;
+          font-size: 25px;
+          color: black;
+          padding: 25px;
+          margin: 14%;
+          background-color: rgba(23, 138, 23, 0.178); }
+    body .main--div main .fun-fact {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin: 5% 0px 15% 0px; }
+      body .main--div main .fun-fact .fun-dive {
+        border: none;
+        grid-column: 1/5; }
+        body .main--div main .fun-fact .fun-dive h3 {
+          color: black;
+          margin: 5%; }
+      body .main--div main .fun-fact div {
+        display: flex;
+        flex-direction: column;
+        border: 2px solid rgba(77, 72, 72, 0.486);
+        border-radius: 10px;
+        margin: 25px;
+        padding: 8px; }
+        body .main--div main .fun-fact div h3 {
+          font-size: 28px;
+          color: black;
+          margin: 5% 0px;
+          text-align: center; }
+        body .main--div main .fun-fact div i {
+          color: rgba(57, 131, 22, 0.781); }
+      body .main--div main .fun-fact div:hover {
+        box-shadow: 0px 3px 9px 2px #80808091;
+        border: none; }
+      body .main--div main .fun-fact .fun-dive:hover {
+        box-shadow: none; }
+    body .main--div .footer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin: 2% 0px; }
+      body .main--div .footer a {
+        text-decoration: none; }
+      body .main--div .footer h4 {
+        font-size: 18px;
+        font-family: sans-serif;
+        color: black;
+        letter-spacing: 1px;
+        padding: 10px;
+        text-align: center;
+        text-transform: capitalize; }
+      body .main--div .footer .cr {
+        grid-column: 4/5;
+        font-size: 15px;
+        padding: 10px; }
+
+/*# sourceMappingURL=cv.css.map */

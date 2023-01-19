@@ -1,0 +1,213 @@
+$iconcolor:rgba(57, 131, 22, 0.781);
+$maincolor:rgba(0, 0, 0, 0.74);
+%text-style{
+    line-break: normal;
+    font-size: 23px;
+    font-family:sans-serif;
+    color: $maincolor;
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+%text-style2{
+    font-size: 35px;
+    color: $maincolor;
+    text-align: center;
+}
+%h-style{
+    text-transform: capitalize;
+    font-size: 32px;
+    font-weight: bold;
+    color: rgb(57, 131, 22);
+    line-height: 30px;
+    letter-spacing: 1px;
+    padding: 5px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+%iconstyle{
+    font-size: 30px;
+    color:$iconcolor;
+}
+%imgstyle{
+    box-shadow: 0px 0px 3px 2px rgba(131, 173, 111, 0.4);
+    width: 100%;
+    filter: brightness(0.8);
+    padding: 10px;
+    height: 100%;
+    border-radius: 10px;
+}
+%btnstyle{
+    color: $maincolor;
+    font-size: 25px;
+    font-weight: bold;
+    font-family:sans-serif;
+    letter-spacing: 1px;
+    padding: 20px;
+    margin: 25px;
+    border: 2px solid rgba(128, 128, 128, 0.692);
+    border-radius: 40px;
+    text-transform: capitalize;
+    cursor: pointer;
+    box-shadow: 0px 3px 9px 2px #80808091;
+    transition: background-color .65s ;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(../CV/img/background.jpeg);
+    background-size: cover;
+    background-attachment: fixed;
+    & .main--div{
+        padding: 10px;
+        margin: 40px;
+        border-radius: 20px;
+        border: 1px solid rgba(57, 131, 22, 0.37);
+        background-color:whitesmoke;
+        & header{
+            padding: 50px 30px 100px 30px;
+            & .navigation{
+                & ul{
+                    color: $maincolor;
+                    display: grid;
+                    grid-template-columns:repeat(5, 1fr);
+                    list-style: none;
+                    & .navigation--link1{
+                        grid-column: 1 /3 ;
+                        text-transform: capitalize;
+                        font-size: 20px;
+                        font-weight: bolder;
+                        font-family:sans-serif;
+                        & i{
+                            @extend %iconstyle;
+                        }
+                    }
+                    & .navigation--link{
+                        padding-top: 7px;
+                        & a{
+                            font-family:sans-serif;
+                            text-decoration: none;
+                            color: $maincolor;
+                            text-transform: capitalize;
+                            font-size: 25px;
+                        }
+                    }    
+                }
+            }
+        }
+        & main{
+            & .imgs{
+                display: grid;
+                grid-template-columns: repeat(3,1fr);
+                grid-gap:20px;
+                margin: 2% 0px;
+                & div{
+                    border: 1px solid $iconcolor;
+                    border-radius: 10px;
+                    margin: 20px;
+                    padding: 10px;
+                    & img{
+                        @extend %imgstyle;
+                    }
+                }
+            }
+            & .other-projects{
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                justify-items: center;
+                margin: 3% 0px;
+                & a{
+                    @extend %text-style;
+                    text-decoration: none;
+                }
+            }
+            & .discreption{
+                & .date{
+                    display: flex;
+                    margin: 20px 10px;
+                    padding: 5px;
+                    & i{
+                        margin-top: 5px;
+                    }
+                }
+                & .disc{
+                    width: 35%;
+                    margin: 25px 0px;
+                }
+                & h1{
+                    @extend %h-style;
+                    color: $maincolor;
+                }
+                & .technology{
+                    margin: 20px 0px;
+                    & p{
+                        display: inline;
+                        border: 1px solid rgba(81, 85, 78, 0.219) ;
+                    }
+                }
+                & .contact{
+                    margin: 10px 0px;
+                    & i{
+                        padding: 0px 10px;
+                        margin: 19px 0px;
+                    }
+                }
+                & .url{
+                    & button{
+                        border: 3px solid $iconcolor;
+                        @extend %btnstyle;
+                    }
+                    & button:hover{
+                        background-color: $iconcolor;
+                        border: none;
+                        & a {
+                            color: rgb(250, 250, 250);
+                        }
+                    }
+                }
+                & h2{
+                    @extend %h-style;
+                    color: $maincolor;
+                    margin: 25px 0px ;
+                }
+                & i{
+                    @extend %iconstyle;
+                }
+                & p{
+                    @extend %text-style;
+                }
+                & a {
+                    text-decoration: none;
+                    @extend %iconstyle;
+                }
+            }
+        }
+        & .footer{
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            margin:2% 0px;
+            & a{
+                text-decoration: none;
+            }
+            & h4{
+                font-size: 18px;
+                font-family:sans-serif;
+                color: $maincolor;
+                letter-spacing: 1px;
+                padding: 10px;
+                text-align: center;
+                text-transform: capitalize;
+            }
+            & .cr{
+                grid-column:4/5;
+                font-size: 15px;
+                padding: 10px;
+            }
+        }
+    }
+}

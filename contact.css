@@ -1,0 +1,157 @@
+body .main--div main .main-div .contact-div div p, body .main--div main .main-div .loc a, body .main--div main .main-div .help, body .main--div main .main-div .form-div input, body .main--div main .main-div .text-area textarea {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.623);
+  letter-spacing: 1px;
+  padding: 5px;
+  margin: 4% 10px;
+  text-transform: capitalize; }
+
+body .main--div header .navigation ul .navigation--link1 i, body .main--div main .main-div .contact-div div i {
+  font-size: 30px;
+  color: rgba(57, 131, 22, 0.781); }
+
+body .main--div main .cont h1, body .main--div main .main-div .contact-div div h2 {
+  font-size: 30px;
+  color: black;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin: 4% 10px;
+  text-transform: capitalize; }
+
+body .main--div main .main-div .form-div .message button {
+  color: black;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  padding: 20px;
+  margin: 15px 30px 15px 40%;
+  border: 2px solid rgba(128, 128, 128, 0.692);
+  border-radius: 40px;
+  text-transform: capitalize;
+  cursor: pointer;
+  box-shadow: 0px 3px 9px 2px #80808091;
+  transition: background-color 0.65s; }
+
+body .main--div header .navigation ul .navigation--link1 i, body .main--div main .main-div .contact-div div i {
+  font-size: 30px;
+  color: rgba(57, 131, 22, 0.781); }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../CV/img/background.jpeg);
+  background-size: cover;
+  background-attachment: fixed; }
+  body .main--div {
+    padding: 10px;
+    margin: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(57, 131, 22, 0.37);
+    background-color: whitesmoke; }
+    body .main--div header {
+      padding: 50px 30px 100px 30px; }
+      body .main--div header .navigation ul {
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        list-style: none; }
+        body .main--div header .navigation ul .navigation--link1 {
+          grid-column: 1/3;
+          text-transform: capitalize;
+          font-size: 20px;
+          font-weight: bolder;
+          font-family: sans-serif; }
+        body .main--div header .navigation ul .navigation--link {
+          padding-top: 7px; }
+          body .main--div header .navigation ul .navigation--link a {
+            font-family: sans-serif;
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+            font-size: 25px; }
+    body .main--div main .cont h1 {
+      color: rgba(57, 131, 22, 0.781); }
+    body .main--div main .main-div {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      margin: 5% 55px; }
+      body .main--div main .main-div .contact-div {
+        display: grid;
+        align-items: center;
+        justify-content: center;
+        align-content: space-evenly;
+        margin-left: 40%;
+        grid-column: 2/4; }
+        body .main--div main .main-div .contact-div div {
+          margin: 10px; }
+          body .main--div main .main-div .contact-div div h2 {
+            font-size: 25px; }
+          body .main--div main .main-div .contact-div div p {
+            font-size: 20px; }
+          body .main--div main .main-div .contact-div div i {
+            text-align: center;
+            margin: 0px 15px; }
+      body .main--div main .main-div .loc a {
+        text-decoration: none;
+        font-size: 20px; }
+      body .main--div main .main-div .help {
+        grid-column: 1/4; }
+      body .main--div main .main-div .form-div input {
+        font-family: sans-serif;
+        font-size: 22px;
+        padding: 12px;
+        border-radius: 20px;
+        border: 2px solid rgba(57, 131, 22, 0.781);
+        box-shadow: 0px 0px 5px 3px rgba(131, 173, 111, 0.507); }
+      body .main--div main .main-div .form-div input:focus {
+        outline: none !important;
+        border-style: none; }
+      body .main--div main .main-div .form-div .message button {
+        margin: 15px 20px;
+        background-color: white; }
+      body .main--div main .main-div .form-div .message button:hover {
+        border: none;
+        background-color: rgba(128, 128, 128, 0.692); }
+      body .main--div main .main-div .form-div .message .download-btn {
+        border: 3px solid rgba(57, 131, 22, 0.781); }
+      body .main--div main .main-div .form-div .message .download-btn:hover {
+        background-color: rgba(57, 131, 22, 0.781);
+        color: white; }
+      body .main--div main .main-div .text-area {
+        grid-column: 2/3; }
+        body .main--div main .main-div .text-area textarea {
+          font-family: sans-serif;
+          font-size: 22px;
+          padding: 10px;
+          width: 417px;
+          height: 129px;
+          border-radius: 20px;
+          border: 2px solid rgba(57, 131, 22, 0.781);
+          box-shadow: 0px 0px 5px 3px rgba(131, 173, 111, 0.507); }
+        body .main--div main .main-div .text-area textarea:focus {
+          outline: none !important;
+          border-style: none; }
+    body .main--div .footer {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      margin: 2% 0px; }
+      body .main--div .footer a {
+        text-decoration: none; }
+      body .main--div .footer h4 {
+        font-size: 18px;
+        font-family: sans-serif;
+        color: black;
+        letter-spacing: 1px;
+        padding: 10px;
+        text-align: center;
+        text-transform: capitalize; }
+      body .main--div .footer .cr {
+        grid-column: 4/5;
+        font-size: 15px;
+        padding: 10px; }
+
+/*# sourceMappingURL=contact.css.map */

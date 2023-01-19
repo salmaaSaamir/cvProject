@@ -1,0 +1,89 @@
+body .main--div header .navigation ul .navigation--link1 i {
+  font-size: 30px;
+  color: rgba(57, 131, 22, 0.781); }
+
+body .main--div main .port h1 {
+  font-size: 30px;
+  color: black;
+  letter-spacing: 1px;
+  padding: 5px;
+  margin: 4% 10px;
+  text-transform: capitalize; }
+
+body .main--div main .imgs img {
+  box-shadow: 0px 0px 3px 2px rgba(131, 173, 111, 0.4);
+  width: 100%;
+  filter: brightness(0.8);
+  padding: 10px;
+  height: 100%;
+  border-radius: 10px; }
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(../CV/img/background.jpeg);
+  background-size: cover;
+  background-attachment: fixed; }
+  body .main--div {
+    padding: 10px;
+    margin: 40px;
+    border-radius: 20px;
+    border: 1px solid rgba(57, 131, 22, 0.37);
+    background-color: whitesmoke; }
+    body .main--div header {
+      padding: 50px 30px 100px 30px; }
+      body .main--div header .navigation ul {
+        color: black;
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        list-style: none; }
+        body .main--div header .navigation ul .navigation--link1 {
+          grid-column: 1/3;
+          text-transform: capitalize;
+          font-size: 20px;
+          font-weight: bolder;
+          font-family: sans-serif; }
+        body .main--div header .navigation ul .navigation--link {
+          padding-top: 7px; }
+          body .main--div header .navigation ul .navigation--link a {
+            font-family: sans-serif;
+            text-decoration: none;
+            color: black;
+            text-transform: capitalize;
+            font-size: 25px; }
+    body .main--div main .port {
+      display: grid; }
+      body .main--div main .port h1 {
+        color: rgba(57, 131, 22, 0.781); }
+    body .main--div main .imgs {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      margin: 40px; }
+      body .main--div main .imgs .overflow {
+        border: 1px solid rgba(57, 131, 22, 0.781);
+        border-radius: 10px;
+        margin: 20px;
+        padding: 10px; }
+    body .main--div .footer {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+      margin: 2% 0px; }
+      body .main--div .footer a {
+        text-decoration: none; }
+      body .main--div .footer h4 {
+        font-size: 18px;
+        font-family: sans-serif;
+        color: black;
+        letter-spacing: 1px;
+        padding: 10px;
+        text-align: center;
+        text-transform: capitalize; }
+      body .main--div .footer .cr {
+        grid-column: 4/5;
+        font-size: 15px;
+        padding: 10px; }
+
+/*# sourceMappingURL=portfolio.css.map */
